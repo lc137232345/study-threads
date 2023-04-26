@@ -28,5 +28,5 @@ find_package(Threads)
 add_executable(Demo ${DIR_SRCS})
 # 添加链接库
 #TARGET_LINK_LIBRARIES(Demo  UE DESIGN   ${CMAKE_THREAD_LIBS_INIT})
-target_link_libraries(Demo pthread)
+#target_link_libraries(Demo pthread)
 
