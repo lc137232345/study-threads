@@ -9,6 +9,7 @@ void hello()
 
 int main()
 {
+    
     std::thread t1(hello);
     std::thread t2(hello); 
     t1.join();
